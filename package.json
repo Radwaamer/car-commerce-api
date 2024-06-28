@@ -5,16 +5,12 @@
   "main": "jsonServer.js",
   "scripts": {
     "start": "node index.js",
-    "build": "netlify deploy --prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "json-server": "^0.17.4",
-    "netlify-cli": "^17.30.0",
-    "netlify-lambda": "^2.0.16",
-    "serverless-http": "^3.2.0"
+    "json-server": "^0.17.4"
   }
 }
